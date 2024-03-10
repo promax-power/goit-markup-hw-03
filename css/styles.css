@@ -12,6 +12,11 @@ ol {
   padding: 0;
   margin: 0;
 }
+
+img {
+  display: block;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -19,8 +24,8 @@ ol {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-    width: 1440px;
-    height: 72px; 
+  width: 1440px;
+  height: 72px;
 }
 .header-container {
   display: flex;
@@ -85,6 +90,7 @@ ol {
 }
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-main {
   font-family: "Roboto", sans-serif;
@@ -105,7 +111,6 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
-  
 }
 .hero-button-text {
   font-family: "Roboto", sans-serif;
@@ -119,13 +124,25 @@ button:hover,
 button:focus {
   background: #404bbf;
 }
+
 .about {
   padding: 120px 0;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .about-main-list {
   display: flex;
   gap: 24px;
-
 }
 .about-list {
   width: calc((100% - 72px) / 4);
@@ -150,7 +167,7 @@ button:focus {
 }
 .team {
   background-color: #f4f4fd;
-  margin-bottom: 72px;
+  padding: 120px 0;
 }
 .team-list-main {
   display: flex;
@@ -165,7 +182,7 @@ button:focus {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .team-list {
   background-color: #ffffff;
@@ -182,6 +199,8 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -191,10 +210,23 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .portfolio {
   padding: 120px 0 120px 0;
+}
+
+.portfolio-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .portfolio-list-main {
@@ -222,7 +254,7 @@ button:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 72px;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -247,7 +279,7 @@ button:focus {
   color: #4d5ae5;
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 .footer-logo-part {
   font-family: "Raleway", sans-serif;
@@ -266,5 +298,5 @@ button:focus {
   letter-spacing: 0.02em;
   text-transform: none;
   color: #f4f4fd;
-  max-width: 264px
+  max-width: 264px;
 }
