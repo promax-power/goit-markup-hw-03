@@ -102,6 +102,8 @@ img {
   color: #fff;
   padding: 188px 0;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
 }
 button {
   background: #4d5ae5;
