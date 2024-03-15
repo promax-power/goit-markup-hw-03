@@ -36,8 +36,7 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
+  
 }
 .header-container {
   display: flex;
@@ -103,8 +102,7 @@ img {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
-  width: 1440px;
-  height: 600px;
+  margin: 0 auto;
 }
 .hero-main {
   font-family: "Roboto", sans-serif;
@@ -178,9 +176,8 @@ button:focus {
 }
 .team {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
-  margin-bottom: 120px;
+  padding: 120px 0;
+  margin: 0 auto;
 }
 
 .team-heading {
@@ -192,7 +189,6 @@ button:focus {
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -234,7 +230,8 @@ button:focus {
 }
 
 .portfolio {
-  margin: 120px 0 120px 0;
+  padding: 120px 0;
+  margin: 0 auto;
 }
 
 .portfolio-heading {
